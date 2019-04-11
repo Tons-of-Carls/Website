@@ -1,3 +1,7 @@
+.imageMissing{
+    border: black dashed 3px;
+}
+
 .home-container{
     min-width: 1000px;
 }
