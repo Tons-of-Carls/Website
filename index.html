@@ -11,16 +11,19 @@
 
         <link rel="stylesheet" href="./css/home.css">
 
+        <script type="text/javascript" src="src/Base.js"></script>
+        <script type="text/javascript" src="src/List.js"></script>
+
         <title>Carleton Zhao</title>
     </head>
     <body>
-        <div class="container-fluid home-container">
 
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-2 d-flex flex-row justify-content-center">
-                    <img src="./files/portrait_s.jpg">
+                <div class="col-md-2 text-center">
+                    <img src="./files/portrait_s.jpg" class="img-fluid">
                 </div>
-                <div class="col-10">
+                <div class="col-md-10">
                     <div>
                         <h1>Carleton Zhao</h1>
                     </div>
@@ -32,52 +35,55 @@
                     </div>
                 </div>
             </div>
-
             <hr/>
+        </div>
 
-            <div class="row d-flex flex-row justify-content-center">
-                <div class="col-1 d-flex flex-row justify-content-center">
-                    <a href="./index.html">Home</a>
-                </div>
-                <div class="col-1 d-flex flex-row justify-content-center">
-                    <a href="./Projects.html">Projects</a>
-                </div>
-                <div class="col-1 d-flex flex-row justify-content-center">
-                    <a href="./files/CARLETON%20ZHAO.pdf">Resume</a>
-                </div>
+        <div class="container">
+
+            <!--Menu-->
+            <div id="Menu" class="row d-flex flex-row justify-content-center">
+
             </div>
 
             <hr/>
 
             <div class="row">
-                <div class="offset-1 col-8">
-                    <P>Currently I am a computer science major at UC irvine. I am actively involved in 2 different robotics clubs
-                        where I can apply my experience in C and C++, PID control loops, and python to the challenges
-                        that I face in both of these clubs. Between high school and college I have gained experience
-                        working in small teams of less than 10 people as well as larger teams of about 40 to 50 people.
-                        Looking forward I would like to gain more experience in robotics, computer vision, and AI/ML.</P>
+                <div class="col-12">
+                    <P>Currently I am a CS major at UC irvine. I am actively involved in the robotics club at UCI where
+                        I can apply my experience in C and C++ as well as python to the challenges that I face. Between
+                        high school and college I have gained experience working in small teams of less than 10 people
+                        as well as larger teams of about 40 to 50 people. Looking forward I would like to learn about
+                        how to apply what I have learned in college such as computer vision to real world problems like
+                        robotics.</P>
 
                 </div>
             </div>
 
             <hr/>
 
+            <!--Key-->
             <div class="row">
-                <div class="offset-1 col-5">
+                <p><strong><span class="won">Won</span></strong> | <strong><span class="mentor">Mentored At</span></strong></p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-6">
                     <h4>Hackathons</h4>
-                    <p><span class="hackathons-won">Won</span> | <span class="hackathons-mentor">Mentored At</span></p>
                     <ul>
-                        <li>LA Hacks 2019 - Participant</li>
-                        <li class="hackathons-won">Hack UCI 2019 - Participant</li>
-                        <li>SLO Hacks 2019 - Participant</li>
-                        <li class="hackathons-mentor">Zot Hacks 2018 - Mentor</li>
-                        <li>LA Hacks 2018 - Participant</li>
-                        <li>Hack UCI 2018 - Participant</li>
+                        <li>Beach Hacks 2019</li>
+                        <li>LA Hacks 2019</li>
+                        <li class="won"><strong>Hack UCI 2019</strong></li>
+                        <li>SLO Hacks 2019</li>
+                        <li class="mentor"><strong>Zot Hacks 2018</strong></li>
+                        <li>LA Hacks 2018</li>
+                        <li>Hack UCI 2018</li>
                     </ul>
                 </div>
-                <div class="col-5">
+                <div class="col-6">
                     <h4>Robotics Competitions</h4>
                     <ul>
+                        <li class="mentor"><strong>Robot Rumble 2019</strong></li>
                         <li>Micromouse 2018-2019</li>
                         <li>FIRST Steamworks 2017</li>
                         <li>FIRST Stronghold 2016</li>
@@ -89,7 +95,7 @@
             <hr/>
 
             <div class="row">
-                <div class="offset-1 col-5">
+                <div class="col-6">
                     <h4>Programming Languages</h4>
                     <ul>
                         <li>Python 2</li>
@@ -99,7 +105,7 @@
                         <li>HTML / CSS</li>
                     </ul>
                 </div>
-                <div class="col-5">
+                <div class="col-6">
                     <h4>Technologies</h4>
                     <ul>
                         <li>Numpy</li>
@@ -124,4 +130,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
+    <script type="text/javascript" src="src/index.js"></script>
 </html>
