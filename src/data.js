@@ -33,7 +33,7 @@ Finally I used a Delaunay Triangulation to connect up points and create a mesh. 
   },
 
   {
-    title: "Stern Gerlack Experiment Simulation",
+    title: "Stern Gerlach Experiment Simulation",
     year: 2019,
     place: "Beach Hacks 2019",
     description: "Coming Soon",
