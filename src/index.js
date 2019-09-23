@@ -9,7 +9,7 @@ const Menu = `
     <a href="./files/CARLETON%20ZHAO.pdf">Resume</a>
 </div>
 <div class="col-md-1 d-flex flex-row justify-content-center">
-    <a href="https://github.com/Tons-of-Carls">Github</a>
+    <a href="https://github.com/carletonz">Github</a>
 </div>
 <div class="col-md-1 d-flex flex-row justify-content-center">
     <a href="https://devpost.com/Tons-of-Carls/">Devpost</a>
